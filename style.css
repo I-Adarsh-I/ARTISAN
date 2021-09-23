@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic ;
+}
+ header{
+     /*background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../ARTISAN/background2.jpg");
+     height: 100vh;*/
+     background-size: cover;
+     background-position: center;
+     background-color: burlywood;
+     height: 8vh;
+     
+ }
+
+ .first{
+     float: right;
+     list-style-type: none;
+     margin-top: 20px;
+ }
+
+ .first li{
+     display: inline-block;
+ }
+
+ .first li a{
+     text-decoration: none;
+     color: white;
+     padding: 5px 20px;
+     border: 1px solid transparent; 
+     transition: 0.6s ease;  
+ }
+ 
+ ul li a:hover{
+     background-color: #fff;
+     color: #000;
+ }
+ ul li.active a{
+    background-color: #fff;
+    color: #000;
+     
+}
+
+ .logo img{
+      
+     float: left;
+     width: 50px;
+     height: auto;
+ }
+ .main{
+    
+    max-width: 1200px;
+    margin:auto;
+}
+.title{
+    position: absolute;
+    top: 19%;
+    left: 45%;
+    
+}
+.title h1{
+    color: #000;
+    font-size: 40px;
+}
+.clickable1 img{
+    position: absolute;
+    top: 43%;
+    left: 20%;
+    
+}
+
+.button{
+    
+    position: absolute;
+    top: 28%;
+    left: 52%;
+    
+    text-align: center;
+}
+.btn{
+    border: 1px solid #fff;
+    padding: 5px 15px;
+    color: 	#ff6347;
+    text-decoration: none;
+    transition: 0.6s ease;
+    font-size: 10px;
+}
+.btn:hover{
+    background-color: #fff;
+    color: black;
+}
+.search-box{
+    position: absolute;
+    left: 25%;
+    top: 12px;
+    background:black;
+    height: 30px;
+    border-radius: 0px;
+    padding: 2px;
+}
+/*.search-box:hover > .search-txt{
+    width: 240px;
+    padding: 0 6px;
+    
+}*/
+.search-btn{
+    color: #000;
+    float: right;
+    width: 40px;
+    height: 30px;
+    border-radius: 0px;
+    background: rgb(124, 81, 81);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 12px;
+    transition: 0.4s;
+    line-height: 30px;
+    width: 390px;
+
+}
+
+.login{
+    position: absolute;
+    left: 90%;
+    top: 3%;
+
+}
+
+.login_btn{
+    color: #000;
+    border-radius: 2px;
+    border: 1px solid white;
+    background: white;
+    letter-spacing: 1px;
+    padding: 6px 40px;
+    margin: 0px 20px;
+    
+    text-decoration: none;
+    font-size: 16px;
+
+}
+.login_dropdown , .more_dropdown{
+    position: relative;
+    top: 12px;
+}
+
+.more_dropdown{
+    right: 40px;
+}
+
+.login_dropdown_list , .more_dropdown_list{
+    position: absolute ;
+    list-style: none;
+    background-color: #fff;
+    width: max-content;
+    box-shadow: 0 4px;
+    min-width: 240px;
+    transform: translate(-30px);
+
+}
+.login_drop_li{
+    padding: 16px 20px;
+    border-bottom: 1px solid wheat;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+.login_drop_li:last-child , .more_drop_li:last-child{
+    border-bottom: none ;
+}
+.login_drop_li:first-child{
+    padding: 20px;
+}
+.login_drop_li:first-child{
+    background: #fff;
+}
+.login_drop_li:hover{
+    background: #fff;
+}
+.new_login{
+    justify-content: space-between;
+    font-size: 14px;
+
+}
+
+.sign_up{
+    text-decoration: none;
+    color: #2874f0;
+}
+
+.login:hover .login_ .more:hover .more_lan{
+    position: relative;
+    top: 10px;
+}
+
+.more_pointer{
+    left: 80%;
+}
+.more_icon{
+    width: 25px;
+    color: blanchedalmond;
+}
+.login:hover .login_dropdown , .more:hover .more_dropdown{
+    display: block;
+}
