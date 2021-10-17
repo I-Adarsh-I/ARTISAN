@@ -5,9 +5,9 @@
 }
 nav{
     float: right;
-    margin-right: 65px;
+    margin-right: 85px;
     list-style-type: none;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 nav li{
@@ -32,8 +32,16 @@ nav ul li:hover > ul{
 nav ul li ul li{
     width: 150px;
     float: none;
+    padding: 5px;
     display: list-item;
     position: relative;
+    background: #f5f5f5;
+    list-style-type: none;
+}
+nav ul ul li:hover{
+   position: relative;
+    background-color:#fff ;
+
 }
 
 nav ul li a:hover{
