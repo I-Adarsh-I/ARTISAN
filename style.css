@@ -3,6 +3,49 @@
     padding: 0;
     font-family: Century Gothic ;
 }
+nav{
+    float: right;
+    margin-right: 65px;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #000;
+    padding: 5px 20px;
+    border: 1px solid transparent; 
+    transition: 0.6s ease;  
+}
+nav ul li ul {
+    position: absolute;
+    top: 50px;
+    display: none;
+}
+nav ul li:hover > ul{
+    display: block;
+}
+nav ul li ul li{
+    width: 150px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+nav ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+nav ul li.active a{
+   background-color: #fff;
+   color: #000;
+    
+}
+
  header{
      /*background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../ARTISAN/background2.jpg");
      height: 100vh;*/
@@ -13,39 +56,12 @@
      
  }
 
- .first{
-     float: right;
-     list-style-type: none;
-     margin-top: 20px;
- }
-
- .first li{
-     display: inline-block;
- }
-
- .first li a{
-     text-decoration: none;
-     color: white;
-     padding: 5px 20px;
-     border: 1px solid transparent; 
-     transition: 0.6s ease;  
- }
  
- ul li a:hover{
-     background-color: #fff;
-     color: #000;
- }
- ul li.active a{
-    background-color: #fff;
-    color: #000;
-     
-}
-
  .logo img{
       
      float: left;
-     width: 50px;
-     height: auto;
+     width: 80px;
+     height: 80px;
  }
  .main{
     
@@ -131,7 +147,7 @@
 .login{
     position: absolute;
     left: 90%;
-    top: 3%;
+    top: 3.16%;
 
 }
 
@@ -164,7 +180,7 @@
     width: max-content;
     box-shadow: 0 4px;
     min-width: 240px;
-    transform: translate(-30px);
+    transform: translate(-50px);
 
 }
 .login_drop_li{
