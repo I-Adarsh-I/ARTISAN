@@ -33,15 +33,16 @@ nav ul li ul li{
     width: 150px;
     float: none;
     padding: 5px;
-    display: list-item;
+    /* display: list-item; */
     position: relative;
     background: #f5f5f5;
     list-style-type: none;
+    font-size: 15px;
 }
-nav ul ul li:hover{
+.second li a:hover{
    position: relative;
-    background-color:#fff ;
-
+    background-color:#fff;
+    font-size: 13px;
 }
 
 nav ul li a:hover{
