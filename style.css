@@ -62,7 +62,6 @@ nav ul li.active a{
      background-position: center;
      background-color: burlywood;
      height: 8vh;
-     
  }
 
  
@@ -153,87 +152,3 @@ nav ul li.active a{
 
 }
 
-.login{
-    position: absolute;
-    left: 90%;
-    top: 3.16%;
-
-}
-
-.login_btn{
-    color: #000;
-    border-radius: 2px;
-    border: 1px solid white;
-    background: white;
-    letter-spacing: 1px;
-    padding: 6px 40px;
-    margin: 0px 20px;
-    
-    text-decoration: none;
-    font-size: 16px;
-
-}
-.login_dropdown , .more_dropdown{
-    position: relative;
-    top: 12px;
-}
-
-.more_dropdown{
-    right: 40px;
-}
-
-.login_dropdown_list , .more_dropdown_list{
-    position: absolute ;
-    list-style: none;
-    background-color: #fff;
-    width: max-content;
-    box-shadow: 0 4px;
-    min-width: 240px;
-    transform: translate(-50px);
-
-}
-.login_drop_li{
-    padding: 16px 20px;
-    border-bottom: 1px solid wheat;
-    font-size: 14px;
-    cursor: pointer;
-
-}
-.login_drop_li:last-child , .more_drop_li:last-child{
-    border-bottom: none ;
-}
-.login_drop_li:first-child{
-    padding: 20px;
-}
-.login_drop_li:first-child{
-    background: #fff;
-}
-.login_drop_li:hover{
-    background: #fff;
-}
-.new_login{
-    justify-content: space-between;
-    font-size: 14px;
-
-}
-
-.sign_up{
-    text-decoration: none;
-    color: #2874f0;
-}
-
-.login:hover .login_ .more:hover .more_lan{
-    position: relative;
-    top: 10px;
-}
-
-.more_pointer{
-    left: 80%;
-}
-.more_icon{
-    width: 25px;
-    color: blanchedalmond;
-}
-.login:hover .login_dropdown , .more:hover .more_dropdown{
-    display: block;
-}
