@@ -129,8 +129,8 @@ nav ul li.active a{
 }
 .search-box{
     position: absolute;
-    left: 25%;
-    top: 12px;
+    left: 33%;
+    top: 20px;
     background:black;
     height: 30px;
     border-radius: 0px;
@@ -163,6 +163,38 @@ nav ul li.active a{
     transition: 0.4s;
     line-height: 30px;
     width: 390px;
-
 }
+.box{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.clickable{
+    width: 250px;
+    text-align: center;
+    margin-top: 15%;
+    /* border: 1px solid gray; */
+    box-shadow: 20px 20px 36px 4px rgba(128,128,128,0.73);
+-webkit-box-shadow: 20px 20px 36px 4px rgba(128,128,128,0.73);
+-moz-box-shadow: 20px 20px 36px 4px rgba(128,128,128,0.73);
+    background-color: #fff;
+}
+.clickable img{
+    width: 100%;   
+}
+.clickable:hover{
+
+    
+}
+/* .clickable:hover img{
+    transform: scale(1.1);
+} */
+.text{
+    background-color: #fff;
+    color: #000;
+    font-size: 20px;
+    font-family: Century Gothic;
+}
+
 

@@ -1,3 +1,37 @@
 color codes-
 
 		Title-  #faebd7
+clickable--
+
+		clickable1{
+    position: absolute;
+    text-align: center;
+    top: 43%;
+    left: 25%;
+}
+.clickable1 img{
+    /* width: 100px;
+    height: 100px;
+    border-radius: 50%; */
+    border: 1px solid #fff;
+}
+.clickable1 img:hover{
+    cursor: pointer;
+    border: 2px solid #000;
+}
+.clickable2{
+    position: absolute;
+    text-align: center;
+    top: 43%;
+    left: 60%;
+}
+.clickable2 img{
+    width: 277px;
+    height: 183px;
+    /* border-radius: 50%; */
+    border: 1px solid #fff;
+}
+.clickable2 img:hover{
+    cursor: pointer;
+    border: 2px solid #000;
+}
